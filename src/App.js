@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Wave } from 'react-animated-text';
+import 'animate.css';
 
 function App() {
   return (
