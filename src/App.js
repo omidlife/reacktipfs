@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Wave text="EXAMPLE TEXT" effect="stretch" effectChange={2.2} />
+      <Wave text="EXAMPLE TEXT" effect="stretch" effectChange={2} />
+      <Wave text="EXAMPLE TEXT" effect="jump" effectChange={5} />
+      <Wave text="EXAMPLE TEXT" effect="pop" effectChange={5} />
         <img src={logo} id="App-logo" className="App-logo1" alt="logo" typeof='image/svg+xml' />
         <p>
           Edit <code>src/App.js</code> and save to reload.
