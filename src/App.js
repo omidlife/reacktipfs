@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import { Wave } from 'react-animated-text';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <Wave text="EXAMPLE TEXT" effect="stretch" effectChange={2.2} />
+        <img src={logo} className="App-logo" alt="logo" typeof='image/svg+xml' />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
